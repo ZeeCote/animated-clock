@@ -18,7 +18,7 @@ html {
 }
 
 .clock-center {
-  bottom: clac(50% - 14px);
+  bottom: calc(50% - 14px);
   left: calc(50% - 14px);
   position: absolute;
   width: 28px;
@@ -37,7 +37,7 @@ html {
 }
 
 .hand-hour {
-  animation: hand-rorate 6s linear infinite;
+  animation: hand-rotate 6s linear infinite;
 }
 
 @keyframes hand-rotate {
